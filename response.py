@@ -9,8 +9,8 @@ the_template = template_file.read()
 
 filled_out_template = the_template.format(name, job)
 
-
 f = open(response_file_absolute_path, 'w+')
 f.write(filled_out_template)
 f.close()
+
 print("Done")
